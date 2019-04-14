@@ -34,9 +34,9 @@ class App extends Component {
 
   }
   toggleTodoDone(event,index){
-    const todos= [...this.state.todos]; //copy of array
-    todos[index] = {...todos[index]};     //copy the todo
-    todos[index].done = event.target.checked;   //update done property oncopied todo
+    const todos= [...this.state.todos];    //copy of array
+    todos[index] = {...todos[index]};      //copy the todo
+    todos[index].done = event.target.checked;    //update done property oncopied todo
     this.setState({
       todos
     });
