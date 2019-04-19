@@ -49,6 +49,7 @@ class App extends Component {
       todos
     });
   }
+  // thiis is the rendering function
 
   render() {
     return (
